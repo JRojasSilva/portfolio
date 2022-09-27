@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Jose Rojas</title>
+    <link rel="icon" href="assets/icons/logo.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/styles.css"
+      media="screen"
+    />
+    <!-- Animaciones CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="contenedor">
+      <!-- Barra de Navegación -->
+      <nav>
+        <img
+          src="assets/images/logo-jr.png"
+          alt="desarrollador-web-jose-rojas"
+          loading="lazy"
+          class="hero-img"
+        />
+        <ul class="navegacion">
+          <li><a href="#more-about" class="nav-link">Acerca de Mí</a></li>
+          <li><a href="skills.html" class="nav-link">Habilidades</a></li>
+          <li><a href="#projects" class="nav-link">Proyectos</a></li>
+          <li><a href="contact.html" class="nav-link">Contacto</a></li>
+        </ul>
+        <button class="menu-hamburguesa" id="menu-hamburguesa">
+          <ion-icon class="barras" name="menu-outline"></ion-icon>
+        </button>
+      </nav>
+      <!-- Sobre Mí -->
+      <section class="more-about" id="more-about">
+        <div class="left-container">
+          <span class="tags"> </span>
+          <h1 class="title-about">
+            HI, <br />I'm Jose Rojas <br />
+            Full Stack Developer
+          </h1>
+          <br />
+          <h2>About Me</h2>
+          <p>
+            Desarrollador full stack principiante. Tengo gran interés en crear
+            experiencias de usuarios dinamicas e intuitivas, además de
+            soluciones que mejoren nuestro día a día.
+          </p>
+          <p>
+            Persona organizada, muy responsable, comprometido y orientado al
+            detalle. Soy aficionado al Futbol y las series de ciencia ficcion.
+          </p>
+          <p>
+            Estoy interesado en todo lo que respecta al desarrollo web y
+            trabajar en gratos ambientes laborales en donde compartir
+            experiencias y competencias.
+          </p>
+
+          <button class="about-button">
+            <a href="contact.html" class="nav-link">Contact Me</a>
+          </button>
+        </div>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="skills-wrapper">
+          <h2 class="skill-header">My Top Skills</h2>
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-html-5.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-css3.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-javascript.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-bootstrap.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-react-native.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-git.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="assets/images/expenseTracker.png"
+              alt="expense-tracker"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Expense Tracker</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/netflixClone.png"
+              alt="netflic-clone"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Netflix Clone</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/greenyEarth.png"
+              alt="greeny-earth"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Greeny Earth</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xyylnggw" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+        <br />
+      </section>
+
+      <footer class="footer-back">
+        <p class="copy">&copy; Copyright 2022</p>
+        <p class="copy">
+          Built with great enthusiasm by
+          <a href="https://www.linkedin.com/in/joserojass-apc" target="_blank"
+            >Jose Rojas</a
+          >
+        </p>
+      </footer> -->
+    </div>
+
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/joserojass-apc" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin.png"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/JRojasSilva/" target="_blank"
+        ><img src="assets/icons/icons8-github.png" alt="Github" class="socicon"
+      /></a>
+    </div>
+    <!-- Vuelve al comienzo  -->
+    <!-- <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-arrow-up.png"
+        class="socicon up-arrow"
+        alt=""
+    /></i> -->
+    <!-- Sección Footer  -->
+
+    <!-- Website scripts -->
+    <script src="assets/js/function.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
